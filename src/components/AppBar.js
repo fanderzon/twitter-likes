@@ -9,7 +9,7 @@ const Bar = ({showRead, toggleFilter}) => {
   const buttonColor = showRead ? '#69F0AE' : '#CCCDCC';
   return (
       <AppBar
-        title="Notes"
+        title="Liked tweets"
         iconElementRight={<IconButton onClick={toggleFilter} touch={true} style={{
           backgroundColor: buttonColor,
           borderRadius: '50%'
